@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e7f433c.css",
-    "main.js": "/static/js/main.03fa0bbf.js",
+    "main.css": "/static/css/main.0d590919.css",
+    "main.js": "/static/js/main.1a3a3d33.js",
     "static/media/XBG.jpg": "/static/media/XBG.45f9e4c766a337415f12.jpg",
     "static/media/headerFont.ttf": "/static/media/headerFont.55923a59941c4cb4fa7c.ttf",
     "static/media/headerFont.woff": "/static/media/headerFont.067de9cbe7ecf257c731.woff",
@@ -13,11 +13,11 @@
     "static/media/Psychedelic-Bold.woff": "/static/media/Psychedelic-Bold.42f607c2cfaa2b68cee0.woff",
     "static/media/logo_full_transparent_V1.png": "/static/media/logo_full_transparent_V1.7d06f6616aa3129b6dde.png",
     "index.html": "/index.html",
-    "main.7e7f433c.css.map": "/static/css/main.7e7f433c.css.map",
-    "main.03fa0bbf.js.map": "/static/js/main.03fa0bbf.js.map"
+    "main.0d590919.css.map": "/static/css/main.0d590919.css.map",
+    "main.1a3a3d33.js.map": "/static/js/main.1a3a3d33.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e7f433c.css",
-    "static/js/main.03fa0bbf.js"
+    "static/css/main.0d590919.css",
+    "static/js/main.1a3a3d33.js"
   ]
 }
