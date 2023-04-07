@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e7f433c.css",
+    "main.js": "/static/js/main.40538b20.js",
+    "static/media/XBG.jpg": "/static/media/XBG.45f9e4c766a337415f12.jpg",
+    "static/media/headerFont.ttf": "/static/media/headerFont.55923a59941c4cb4fa7c.ttf",
+    "static/media/headerFont.woff": "/static/media/headerFont.067de9cbe7ecf257c731.woff",
+    "static/media/Ye-Olde-Oak.woff": "/static/media/Ye-Olde-Oak.a809d4e6c52399057c45.woff",
+    "static/media/OldeBarnsby.woff": "/static/media/OldeBarnsby.06b3fecfdf07887ba143.woff",
+    "static/media/Psychedelic-Bold.otf": "/static/media/Psychedelic-Bold.24a57553cd783ba7d37b.otf",
+    "static/media/OldeEnglish.woff": "/static/media/OldeEnglish.11de7104a432f045fd75.woff",
+    "static/media/gamer.ttf": "/static/media/gamer.df940615cdefaa01af9f.ttf",
+    "static/media/Psychedelic-Bold.woff": "/static/media/Psychedelic-Bold.42f607c2cfaa2b68cee0.woff",
+    "static/media/logo_full_transparent_V1.png": "/static/media/logo_full_transparent_V1.7d06f6616aa3129b6dde.png",
+    "index.html": "/index.html",
+    "main.7e7f433c.css.map": "/static/css/main.7e7f433c.css.map",
+    "main.40538b20.js.map": "/static/js/main.40538b20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e7f433c.css",
+    "static/js/main.40538b20.js"
+  ]
+}
