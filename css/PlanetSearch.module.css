@@ -16,7 +16,7 @@
     margin-bottom: 5px;
     color: #fff;
     font-family: "SpaceShipz";
-    font-size: 5rem; }
+    font-size: 1rem; }
   .planet-container .type-header {
     color: #fff;
     font-family: 'Courier New', Courier, monospace; }
@@ -29,14 +29,9 @@
   margin-bottom: 5px; }
 
 .searchInput {
-  max-width: 100%;
   height: 40px;
   border-radius: 10px;
-  background-image: url("https://img.icons8.com/ios-glyphs/30/000000/search--v1.png");
-  background-position: 95% 50%;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 1rem 0 1rem 0; }
 
 .searchInput:focus {
