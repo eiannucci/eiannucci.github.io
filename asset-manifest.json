@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b82c9bf.css",
+    "main.css": "/static/css/main.0a7a87c0.css",
     "main.js": "/static/js/main.c8e7c897.js",
     "static/media/headerFont.otf": "/static/media/headerFont.e9d7747e73c159aa9c84.otf",
     "static/media/Ye-Olde-Oak.otf": "/static/media/Ye-Olde-Oak.389a2cc53eaf20fda859.otf",
@@ -30,11 +30,11 @@
     "static/media/gamer.woff": "/static/media/gamer.809f37aa07bdacbf7f2c.woff",
     "static/media/Hero.woff": "/static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "/index.html",
-    "main.4b82c9bf.css.map": "/static/css/main.4b82c9bf.css.map",
+    "main.0a7a87c0.css.map": "/static/css/main.0a7a87c0.css.map",
     "main.c8e7c897.js.map": "/static/js/main.c8e7c897.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b82c9bf.css",
+    "static/css/main.0a7a87c0.css",
     "static/js/main.c8e7c897.js"
   ]
 }
