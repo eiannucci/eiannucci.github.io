@@ -1,39 +1,31 @@
 .rel-container {
   background-image: url(../img/funny-shakespeare-transparent.png);
   background-repeat: no-repeat;
-  background-size: contain;
-}
+  background-size: contain; }
 
 .button-container {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .insult-text {
   font-family: "OldeOak";
   color: darkgreen;
   font-size: 5rem;
   position: relative;
-  clear: both;
-}
+  clear: both; }
 
 .insult-btn {
   margin-top: 1rem;
   border-radius: 1rem;
   background-color: darkgreen !important;
   color: #fff;
-  font-family: "Olde";
+  font-family: 'OldeEnglish';
   font-size: 2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.insult-btn svg {
-  margin-right: 1rem;
-}
-.insult-btn span {
-  display: flex;
-  align-items: center;
-}
-
-/*# sourceMappingURL=InsultGenerator.module.css.map */
+  justify-content: center; }
+  .insult-btn svg {
+    margin-right: 1rem; }
+  .insult-btn span {
+    display: flex;
+    align-items: center; }

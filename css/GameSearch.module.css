@@ -1,0 +1,12 @@
+.cont {
+  padding-bottom: 1rem !important; }
+
+.card-custom-styles-xbox {
+  background-color: transparent;
+  text-align: left;
+  color: #fff;
+  margin: 1rem 0 0 0 !important;
+  padding: 1rem 0 1rem 0; }
+
+.xbg {
+  background-image: url("../img/XBG.jpg"); }

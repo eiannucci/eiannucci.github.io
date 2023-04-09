@@ -1,24 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.73ba6a82.css",
-    "main.js": "/static/js/main.90a7b56a.js",
+    "main.css": "/static/css/main.35104cb9.css",
+    "main.js": "/static/js/main.0f245e0e.js",
+    "static/media/headerFont.otf": "/static/media/headerFont.e9d7747e73c159aa9c84.otf",
+    "static/media/Ye-Olde-Oak.otf": "/static/media/Ye-Olde-Oak.389a2cc53eaf20fda859.otf",
     "static/media/XBG.jpg": "/static/media/XBG.45f9e4c766a337415f12.jpg",
+    "static/media/headerFont.woff2": "/static/media/headerFont.387262eb79de224f29cd.woff2",
+    "static/media/SpaceShipz.otf": "/static/media/SpaceShipz.ca71ba04a13335bb3779.otf",
     "static/media/headerFont.ttf": "/static/media/headerFont.55923a59941c4cb4fa7c.ttf",
+    "static/media/Ye-Olde-Oak.woff2": "/static/media/Ye-Olde-Oak.cf04b716e3e453fb4dbc.woff2",
+    "static/media/Ye-Olde-Oak.ttf": "/static/media/Ye-Olde-Oak.24dde8cbda833fbcf7c6.ttf",
     "static/media/headerFont.woff": "/static/media/headerFont.067de9cbe7ecf257c731.woff",
+    "static/media/SpaceShipz.ttf": "/static/media/SpaceShipz.072989d78d72e981f79a.ttf",
     "static/media/Ye-Olde-Oak.woff": "/static/media/Ye-Olde-Oak.a809d4e6c52399057c45.woff",
     "static/media/funny-shakespeare-transparent.png": "/static/media/funny-shakespeare-transparent.6b6538ce2b1bac151cfa.png",
-    "static/media/OldeBarnsby.woff": "/static/media/OldeBarnsby.06b3fecfdf07887ba143.woff",
-    "static/media/Psychedelic-Bold.otf": "/static/media/Psychedelic-Bold.24a57553cd783ba7d37b.otf",
+    "static/media/OldeEnglish.otf": "/static/media/OldeEnglish.752b70f5e9213cb77ec0.otf",
+    "static/media/OldeEnglish.ttf": "/static/media/OldeEnglish.f071803b01362a70c194.ttf",
+    "static/media/OldeEnglish.woff2": "/static/media/OldeEnglish.8e4b2da738afde7f947f.woff2",
+    "static/media/SpaceShipz.woff": "/static/media/SpaceShipz.01fcfbf13353974fe16d.woff",
     "static/media/OldeEnglish.woff": "/static/media/OldeEnglish.11de7104a432f045fd75.woff",
+    "static/media/SpaceShipz.woff2": "/static/media/SpaceShipz.982dedf580ba914e7792.woff2",
+    "static/media/gamer.woff2": "/static/media/gamer.6a9d426f4aecf556838f.woff2",
     "static/media/gamer.ttf": "/static/media/gamer.df940615cdefaa01af9f.ttf",
-    "static/media/Psychedelic-Bold.woff": "/static/media/Psychedelic-Bold.42f607c2cfaa2b68cee0.woff",
     "static/media/logo_full_transparent_V1.png": "/static/media/logo_full_transparent_V1.7d06f6616aa3129b6dde.png",
+    "static/media/Hero.woff2": "/static/media/Hero.6fab8b0fb35847c25bcf.woff2",
+    "static/media/Hero.ttf": "/static/media/Hero.a87fc3e02aebd8557dc1.ttf",
+    "static/media/gamer.otf": "/static/media/gamer.810bf7b7571cf8844f99.otf",
+    "static/media/Hero.otf": "/static/media/Hero.7d1d2ec6c320c39baa8a.otf",
+    "static/media/gamer.woff": "/static/media/gamer.809f37aa07bdacbf7f2c.woff",
+    "static/media/Hero.woff": "/static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "/index.html",
-    "main.73ba6a82.css.map": "/static/css/main.73ba6a82.css.map",
-    "main.90a7b56a.js.map": "/static/js/main.90a7b56a.js.map"
+    "main.35104cb9.css.map": "/static/css/main.35104cb9.css.map",
+    "main.0f245e0e.js.map": "/static/js/main.0f245e0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.73ba6a82.css",
-    "static/js/main.90a7b56a.js"
+    "static/css/main.35104cb9.css",
+    "static/js/main.0f245e0e.js"
   ]
 }
