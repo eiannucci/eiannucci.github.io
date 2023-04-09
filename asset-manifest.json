@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc3e1499.css",
-    "main.js": "/static/js/main.9b032d53.js",
+    "main.css": "/static/css/main.0a7a87c0.css",
+    "main.js": "/static/js/main.c8e7c897.js",
     "static/media/headerFont.otf": "/static/media/headerFont.e9d7747e73c159aa9c84.otf",
     "static/media/Ye-Olde-Oak.otf": "/static/media/Ye-Olde-Oak.389a2cc53eaf20fda859.otf",
     "static/media/XBG.jpg": "/static/media/XBG.45f9e4c766a337415f12.jpg",
@@ -30,11 +30,11 @@
     "static/media/gamer.woff": "/static/media/gamer.809f37aa07bdacbf7f2c.woff",
     "static/media/Hero.woff": "/static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "/index.html",
-    "main.cc3e1499.css.map": "/static/css/main.cc3e1499.css.map",
-    "main.9b032d53.js.map": "/static/js/main.9b032d53.js.map"
+    "main.0a7a87c0.css.map": "/static/css/main.0a7a87c0.css.map",
+    "main.c8e7c897.js.map": "/static/js/main.c8e7c897.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc3e1499.css",
-    "static/js/main.9b032d53.js"
+    "static/css/main.0a7a87c0.css",
+    "static/js/main.c8e7c897.js"
   ]
 }
