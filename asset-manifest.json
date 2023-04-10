@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.54de689d.css",
-    "main.js": "/static/js/main.0508c803.js",
+    "main.css": "/static/css/main.600509df.css",
+    "main.js": "/static/js/main.562ff1d5.js",
     "static/media/headerFont.otf": "/static/media/headerFont.e9d7747e73c159aa9c84.otf",
     "static/media/Ye-Olde-Oak.otf": "/static/media/Ye-Olde-Oak.389a2cc53eaf20fda859.otf",
     "static/media/XBG.jpg": "/static/media/XBG.45f9e4c766a337415f12.jpg",
@@ -22,7 +22,6 @@
     "static/media/SpaceShipz.woff2": "/static/media/SpaceShipz.982dedf580ba914e7792.woff2",
     "static/media/gamer.woff2": "/static/media/gamer.6a9d426f4aecf556838f.woff2",
     "static/media/gamer.ttf": "/static/media/gamer.df940615cdefaa01af9f.ttf",
-    "static/media/logo_full_transparent_V1.png": "/static/media/logo_full_transparent_V1.7d06f6616aa3129b6dde.png",
     "static/media/Hero.woff2": "/static/media/Hero.6fab8b0fb35847c25bcf.woff2",
     "static/media/Hero.ttf": "/static/media/Hero.a87fc3e02aebd8557dc1.ttf",
     "static/media/gamer.otf": "/static/media/gamer.810bf7b7571cf8844f99.otf",
@@ -30,11 +29,11 @@
     "static/media/gamer.woff": "/static/media/gamer.809f37aa07bdacbf7f2c.woff",
     "static/media/Hero.woff": "/static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "/index.html",
-    "main.54de689d.css.map": "/static/css/main.54de689d.css.map",
-    "main.0508c803.js.map": "/static/js/main.0508c803.js.map"
+    "main.600509df.css.map": "/static/css/main.600509df.css.map",
+    "main.562ff1d5.js.map": "/static/js/main.562ff1d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.54de689d.css",
-    "static/js/main.0508c803.js"
+    "static/css/main.600509df.css",
+    "static/js/main.562ff1d5.js"
   ]
 }

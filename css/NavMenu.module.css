@@ -1,32 +1,25 @@
-@font-face {
-  font-family: 'Header-Cursive';
-  src: local("Header-Cursive"), url(../fonts/headerFont.woff) format("woff"); }
+.navbar-outer-container {
+  border-bottom: 1px solid #50518a; }
 
 .logo {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  max-width: 2.5rem; }
+  max-width: 50px;
+  padding-right: 1rem; }
 
 .navbar-title {
-  font-family: Header-Cursive;
-  font-size: 1.5rem;
-  letter-spacing: .5rem;
+  font-family: "HeaderFont";
   line-height: 0;
-  margin: 0;
+  letter-spacing: 0.25rem;
   color: #50518a;
   text-align: left;
-  white-space: nowrap; }
-
-.navbar-collapse {
-  padding-right: 1rem; }
+  white-space: nowrap;
+  text-align: left; }
 
 .nav-link {
   white-space: nowrap; }
 
 .download-btn {
   align-items: center;
-  white-space: nowrap;
-  padding-right: 1rem; }
+  white-space: nowrap; }
 
 .navbar-collapse {
   justify-content: flex-start; }
