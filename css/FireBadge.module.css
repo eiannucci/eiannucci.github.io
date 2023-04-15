@@ -42,13 +42,14 @@
   left: 0;
   width: 70px;
   height: 70px;
-  background-color: transparent; }
+  background-color: transparent;
+  z-index: 2; }
   .fire p {
     color: darkblue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     position: absolute;
-    left: -4px;
+    left: -16px;
     line-height: 1rem;
     font-size: 1rem;
     padding-top: 1rem;

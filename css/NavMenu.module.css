@@ -1,8 +1,9 @@
-.site-name {
+.site-name-font {
   font-family: 'ArmyRust';
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-left: 1rem;
-  letter-spacing: 0.15rem; }
+  letter-spacing: 0.15rem;
+  color: #fff; }
 
 .brand {
   display: flex;
@@ -20,7 +21,22 @@
 
 .nav-color {
   background: blueviolet;
-  background: -moz-linear-gradient(342deg, blueviolet 0%, rgba(27, 181, 236, 0.895418) 69%);
-  background: -webkit-linear-gradient(342deg, blueviolet 0%, rgba(27, 181, 236, 0.895418) 69%);
-  background: linear-gradient(342deg, blueviolet 0%, rgba(27, 181, 236, 0.895418) 69%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8a2be2",endColorstr="#1bb5ec",GradientType=1); }
+  background: -moz-linear-gradient(342deg, #39b2de 0%, rgba(27, 181, 236, 0.895) 100%);
+  background: -webkit-linear-gradient(342deg, #39b2de 0%, rgba(27, 181, 236, 0.895418) 100%);
+  background: linear-gradient(342deg, #39b2de 0%, rgba(27, 181, 236, 0.895418) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8a2be2", endColorstr="#1bb5ec", GradientType=1); }
+
+navbar-toggler.collapsed, button, .navbar-toggler {
+  background: #fff !important; }
+
+.dropdown-toggle.nav-link {
+  color: #fff !important; }
+
+@media (min-width: 992px) {
+  button {
+    background: #8a2be2 !important; }
+  .site-name-font {
+    font-size: 2rem; } }
+
+nav {
+  z-index: 1; }
