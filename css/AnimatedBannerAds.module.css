@@ -1,0 +1,203 @@
+.banner {
+  position: relative; }
+  .banner .text {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+    font-weight: bold; }
+  .banner button {
+    background-color: #b3ed90 !important;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    box-shadow: 0 2px 2px 1px #79768b; }
+  .banner .btn-pin-right {
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center; }
+  .banner.gradient1 {
+    background: #1fd0e2;
+    background: -moz-linear-gradient(90deg, #1fd0e2 0%, #007cbc 100%);
+    background: -webkit-linear-gradient(90deg, #1fd0e2 0%, #007cbc 100%);
+    background: linear-gradient(90deg, #1fd0e2 0%, #007cbc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1fd0e2", endColorstr="#007cbc", GradientType=1); }
+  .banner.gradient2 {
+    background: #83d4ec;
+    background: -moz-linear-gradient(90deg, rgba(131, 212, 236, 0.536364) 0%, #7011df 91%);
+    background: -webkit-linear-gradient(90deg, rgba(131, 212, 236, 0.536364) 0%, #7011df 91%);
+    background: linear-gradient(90deg, rgba(131, 212, 236, 0.536364) 0%, #7011df 91%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#83d4ec", endColorstr="#7011df", GradientType=1); }
+  .banner.gradient3 {
+    background: #e6a791;
+    background: -moz-linear-gradient(90deg, #e6a791 0%, #4e2480 100%);
+    background: -webkit-linear-gradient(90deg, #e6a791 0%, #4e2480 100%);
+    background: linear-gradient(90deg, #e6a791 0%, #4e2480 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e6a791", endColorstr="#4e2480", GradientType=1); }
+  .banner.topRadius728 {
+    width: 728px;
+    height: 90px;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    margin: 1rem auto;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 0 4px 2px -2px gray;
+    overflow: hidden;
+    position: relative; }
+    .banner.topRadius728 .animated-panel {
+      background-color: #fff;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+      color: #fff;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      position: absolute;
+      width: 40%;
+      left: 40%;
+      bottom: 0;
+      background-image: url("https://images.theconversation.com/files/379516/original/file-20210119-15-tmyvf4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop");
+      background-size: cover;
+      padding: 1rem;
+      z-index: 3; }
+    .banner.topRadius728 .parallelogram {
+      width: 200px;
+      height: 120px;
+      transform: skew(30deg);
+      background: #243e68;
+      position: absolute;
+      left: 45%;
+      z-index: 1; }
+  .banner.noRadius728 {
+    width: 728px;
+    height: 90px;
+    background-color: #007CBC;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 0;
+    margin: 1rem auto;
+    box-shadow: 0 4px 2px -2px gray;
+    overflow: hidden; }
+    .banner.noRadius728 .animated-panel {
+      background-color: #fff;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      color: #fff;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      position: absolute;
+      width: 40%;
+      left: 40%;
+      top: 0;
+      background-image: url("https://images.theconversation.com/files/379516/original/file-20210119-15-tmyvf4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop");
+      background-size: cover;
+      padding: 1rem;
+      z-index: 3; }
+    .banner.noRadius728 .parallelogram {
+      width: 200px;
+      height: 120px;
+      transform: skew(30deg);
+      background: #243e68;
+      position: absolute;
+      left: 45%;
+      z-index: 1; }
+  .banner.bottomRadius728 {
+    width: 728px;
+    height: 90px;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 0 0 1rem 1rem;
+    margin: 1rem auto;
+    box-shadow: 0 4px 2px -2px gray;
+    overflow: hidden; }
+    .banner.bottomRadius728 .animated-panel {
+      background-color: #fff;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+      color: #fff;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      position: absolute;
+      width: 40%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("https://images.theconversation.com/files/379516/original/file-20210119-15-tmyvf4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop");
+      background-size: cover;
+      padding: 1rem;
+      z-index: 1; }
+    .banner.bottomRadius728 .parallelogram {
+      width: 200px;
+      height: 120px;
+      transform: skew(30deg);
+      background: #243e68;
+      position: absolute;
+      left: 45%;
+      z-index: 2; }
+    .banner.bottomRadius728 button {
+      z-index: 4; }
+    .banner.bottomRadius728 .text {
+      z-index: 3; }
+  .banner.bannerWidth300 {
+    width: 300px;
+    height: 250px;
+    color: #fff;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 1rem auto;
+    box-shadow: 0 4px 2px -2px gray;
+    position: relative; }
+    .banner.bannerWidth300 .animated-text {
+      background-image: url("https://images.theconversation.com/files/379516/original/file-20210119-15-tmyvf4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop");
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 0.5rem;
+      position: absolute;
+      border-top: 1px solid #fff;
+      display: felx;
+      justify-content: center;
+      align-items: center; }
+    .banner.bannerWidth300 .text {
+      display: flex;
+      justify-content: left;
+      align-items: center; }
+    .banner.bannerWidth300 .bodyTxt {
+      font-size: 1.5rem;
+      color: #fff;
+      line-height: 1.25rem; }
+      .banner.bannerWidth300 .bodyTxt p {
+        font-size: 1rem;
+        padding-left: 0; }
+    .banner.bannerWidth300 .btn-pin-right {
+      height: 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .banner.bannerWidth300 .repeat-btn {
+      margin: .25rem; }
+  .banner.bannerWidth160 {
+    width: 160px;
+    height: 600px;
+    background-color: #007CBC;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 1rem auto;
+    box-shadow: 0 4px 2px -2px gray; }
