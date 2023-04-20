@@ -1,0 +1,21 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - pre-deployment
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: pre-deployment
+
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          branch: main # Or any other branch you want to deploy to
+          folder: build # This is the folder that will be deployed
