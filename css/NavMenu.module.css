@@ -33,10 +33,5 @@ navbar-toggler.collapsed, button, .navbar-toggler {
   color: #fff !important; }
 
 @media (min-width: 992px) {
-  button {
-    background: #8a2be2 !important; }
   .site-name-font {
     font-size: 2rem; } }
-
-nav {
-  z-index: 1; }

@@ -9,7 +9,8 @@
   background-attachment: fixed;
   background-position-y: top;
   background-position-x: center;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   .planet-container .planet-name {
     font-weight: bold;
     margin-bottom: 5px;
@@ -26,6 +27,9 @@
   .planet-container .type-details {
     color: #fff;
     font-size: 1rem; }
+
+.planet-cards {
+  position: relative; }
 
 .planet-body-type,
 .planet-gravity,

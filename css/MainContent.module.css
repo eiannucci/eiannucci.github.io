@@ -50,7 +50,8 @@
     font-weight: bold;
     font-size: 1.5rem; }
   .hex-bg .tile-desc {
-    color: #fff; }
+    color: #fff;
+    padding-right: 2rem; }
   .hex-bg .info-panel {
     background-color: none;
     width: 100% !important; }
