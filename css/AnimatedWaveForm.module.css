@@ -1,13 +1,7 @@
 .svg-container {
   background-color: #007CBC !important;
+  min-height: 50vh;
   color: #fff;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  border-top: 1px solid black;
-  border-right: 0;
-  border-bottom: 1px solid black;
-  border-left: 0;
   border-radius: 0;
-  box-shadow: 0 4px 2px -2px gray;
-  overflow: hidden; }
+  overflow: hidden;
+  display: flex; }
