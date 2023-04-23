@@ -1,7 +1,7 @@
 .carousel-container {
   background: #5ea4ef;
   overflow: hidden; }
-  .carousel-container button {
+  .carousel-container .control-btns {
     width: 100%;
     background: #00d4ff !important;
     background: -moz-linear-gradient(0deg, #00d4ff 0%, #090979 84%) !important;
@@ -13,4 +13,5 @@
     border-radius: 0;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding: 1rem; }
