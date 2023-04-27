@@ -1,8 +1,6 @@
 .carousel-container {
   background: #5ea4ef;
   overflow: hidden; }
-  .carousel-container div > div > div {
-    height: 100vh; }
   .carousel-container .control-btns {
     width: 100%;
     background: #00d4ff !important;

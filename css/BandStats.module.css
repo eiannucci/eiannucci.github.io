@@ -1,0 +1,19 @@
+.band-info-container {
+  background-image: url("../images/wireBG.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: monospace;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  box-shadow: #26394d 0px 20px 30px -10px; }
+  .band-info-container .band-img {
+    padding-bottom: 1rem; }
+  .band-info-container h2 {
+    font-family: 'DeathRock';
+    font-size: 4rem; }
+  .band-info-container p {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .band-info-container p {
+    padding-left: 0; }

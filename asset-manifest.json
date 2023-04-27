@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.f227d389.css",
-    "main.js": "/static/js/main.974ca14b.js",
+    "main.css": "/static/css/main.d0826659.css",
+    "main.js": "/static/js/main.685faac6.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Death-Rock.otf": "/static/media/Death-Rock.a3fc7238b2d8d9451db1.otf",
+    "static/media/Death-Rock.ttf": "/static/media/Death-Rock.de945250e813f211a237.ttf",
+    "static/media/Death-Rock.woff2": "/static/media/Death-Rock.e1881e9f215f3399928e.woff2",
+    "static/media/Death-Rock.woff": "/static/media/Death-Rock.d057f0855cdb99cf0564.woff",
+    "static/media/juggerrock.otf": "/static/media/juggerrock.86926822f9ee66e109e7.otf",
     "static/media/Ye-Olde-Oak.otf": "/static/media/Ye-Olde-Oak.389a2cc53eaf20fda859.otf",
     "static/media/SpaceShipz.otf": "/static/media/SpaceShipz.ca71ba04a13335bb3779.otf",
+    "static/media/wireBG.jpg": "/static/media/wireBG.b3f0fcbec903c068fb1d.jpg",
+    "static/media/juggerrock.woff2": "/static/media/juggerrock.f4c5028e3b53eb3e199f.woff2",
     "static/media/Ye-Olde-Oak.woff2": "/static/media/Ye-Olde-Oak.cf04b716e3e453fb4dbc.woff2",
     "static/media/Ye-Olde-Oak.woff": "/static/media/Ye-Olde-Oak.afd98e1c343206d1081c.woff",
+    "static/media/juggerrock.woff": "/static/media/juggerrock.b59ff8d4d9eb5947d217.woff",
     "static/media/Ye-Olde-Oak.ttf": "/static/media/Ye-Olde-Oak.24dde8cbda833fbcf7c6.ttf",
+    "static/media/juggerrock.ttf": "/static/media/juggerrock.0bf349bbca2b835f31a4.ttf",
     "static/media/DC-Comics.woff2": "/static/media/DC-Comics.a4e38433ae7b048e5cef.woff2",
     "static/media/DC-Comics.otf": "/static/media/DC-Comics.8ba7d89f4858d9b77c10.otf",
     "static/media/SpaceShipz.ttf": "/static/media/SpaceShipz.072989d78d72e981f79a.ttf",
     "static/media/funny-shakespeare-transparent.png": "/static/media/funny-shakespeare-transparent.6b6538ce2b1bac151cfa.png",
     "static/media/Army-Rust.otf": "/static/media/Army-Rust.eea2ada7453401ddc9a9.otf",
+    "static/media/hexbgPurple.jpg": "/static/media/hexbgPurple.10b5a0687382cc469649.jpg",
     "static/media/OldeEnglish.otf": "/static/media/OldeEnglish.752b70f5e9213cb77ec0.otf",
     "static/media/DC-Comics.ttf": "/static/media/DC-Comics.5daff34efd1c1e672a85.ttf",
     "static/media/Army-Rust.woff2": "/static/media/Army-Rust.76b36c382f6462944c56.woff2",
@@ -29,12 +39,12 @@
     "static/media/Hero.otf": "/static/media/Hero.7d1d2ec6c320c39baa8a.otf",
     "static/media/Hero.woff": "/static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "/index.html",
-    "main.f227d389.css.map": "/static/css/main.f227d389.css.map",
-    "main.974ca14b.js.map": "/static/js/main.974ca14b.js.map",
+    "main.d0826659.css.map": "/static/css/main.d0826659.css.map",
+    "main.685faac6.js.map": "/static/js/main.685faac6.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f227d389.css",
-    "static/js/main.974ca14b.js"
+    "static/css/main.d0826659.css",
+    "static/js/main.685faac6.js"
   ]
 }

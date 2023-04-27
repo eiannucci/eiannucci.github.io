@@ -24,8 +24,8 @@
   box-shadow: #26394d 0px 20px 30px -10px; }
 
 .hex-bg {
-  background-image: url("https://t4.ftcdn.net/jpg/02/82/16/69/360_F_282166962_G6uiOk6ZMPS7Hn4ztq2YjsLRy2UkuJN1.jpg");
-  background-size: contain;
+  background-image: url("../images/hexbgPurple.jpg");
+  background-size: cover;
   display: flex;
   align-items: center;
   font-size: 1rem;
