@@ -6,7 +6,7 @@
   padding: 1rem;
   border-radius: 1rem;
   margin: 1rem auto;
-  box-shadow: #26394d 0px 20px 30px -10px; }
+  box-shadow: rgba(38, 57, 77, 0.5) 0px 20px 30px -10px; }
   .band-info-container .band-img {
     padding-bottom: 1rem; }
   .band-info-container h2 {
@@ -14,6 +14,5 @@
     font-size: 4rem; }
   .band-info-container p {
     font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
-  .band-info-container p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 0; }
