@@ -18,8 +18,7 @@
   object-fit: cover; }
 
 .shadow {
-  box-shadow: #26394d 0px 20px 30px -10px; 
-}
+  box-shadow: rgba(0, 0, 0, 0.75) 3px 10px 10px 0px, black 0px 0px 0px 1px; }
 
 .hex-bg {
   background-image: url("../images/hexBG.jpg");

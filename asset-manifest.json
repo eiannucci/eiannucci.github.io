@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b3b85d9.css",
-    "main.js": "/static/js/main.b5022f5e.js",
+    "main.css": "/static/css/main.241086a0.css",
+    "main.js": "/static/js/main.34556186.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Death-Rock.otf": "/static/media/Death-Rock.a3fc7238b2d8d9451db1.otf",
     "static/media/Death-Rock.ttf": "/static/media/Death-Rock.de945250e813f211a237.ttf",
@@ -34,17 +34,18 @@
     "static/media/SpaceShipz.woff": "/static/media/SpaceShipz.01fcfbf13353974fe16d.woff",
     "static/media/OldeEnglish.woff": "/static/media/OldeEnglish.11de7104a432f045fd75.woff",
     "static/media/SpaceShipz.woff2": "/static/media/SpaceShipz.982dedf580ba914e7792.woff2",
+    "static/media/shFlying1.png": "/static/media/shFlying1.6e0c53498a44b18673a1.png",
     "static/media/Hero.woff2": "/static/media/Hero.6fab8b0fb35847c25bcf.woff2",
     "static/media/Hero.ttf": "/static/media/Hero.a87fc3e02aebd8557dc1.ttf",
     "static/media/Hero.otf": "/static/media/Hero.7d1d2ec6c320c39baa8a.otf",
     "static/media/Hero.woff": "/static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "/index.html",
-    "main.8b3b85d9.css.map": "/static/css/main.8b3b85d9.css.map",
-    "main.b5022f5e.js.map": "/static/js/main.b5022f5e.js.map",
+    "main.241086a0.css.map": "/static/css/main.241086a0.css.map",
+    "main.34556186.js.map": "/static/js/main.34556186.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b3b85d9.css",
-    "static/js/main.b5022f5e.js"
+    "static/css/main.241086a0.css",
+    "static/js/main.34556186.js"
   ]
 }
