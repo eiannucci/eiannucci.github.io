@@ -34,7 +34,7 @@ let btnList = [
   },
   {
     img: "https://www.bl.uk/britishlibrary/~/media/bl/global/dl%20shakespeare/authors/shakespeare-people-page.jpg",
-    title: "Shakesperian Insult Generator",
+    title: "Shakespearian Insult Generator",
     desc: "Insult Thyself...",
     id: "InsultGenerator",
     image: true,
@@ -89,7 +89,6 @@ export const MainContent = () => {
   };
 
   useEffect(() => {
-    // simulate loading delay
     setTimeout(() => setIsLoading(false), 1000);
   }, []);
 
