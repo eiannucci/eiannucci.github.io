@@ -62,7 +62,7 @@ export const NavMenu = () => {
               <NavDropdown.Item className={`${styles["nav-link"]}`} as={Link} to="/pg-superhero-search" onClick={() => { handleLinkClick(); toggleRef.current.click(); }}>Superhero Search</NavDropdown.Item>
               <NavDropdown.Item className={`${styles["nav-link"]}`} as={Link} to="/pg-solar-search" onClick={() => { handleLinkClick(); toggleRef.current.click(); }}>Solar Search</NavDropdown.Item>
               <NavDropdown.Item className={`${styles["nav-link"]}`} as={Link} to="/pg-media-cards" onClick={() => { handleLinkClick(); toggleRef.current.click(); }}>Media Cards</NavDropdown.Item>
-              <NavDropdown.Item className={`${styles["nav-link"]}`} as={Link} to="/pg-customapi-bandstats" onClick={() => { handleLinkClick(); toggleRef.current.click(); }}>Bandstats Custom API</NavDropdown.Item>
+              <NavDropdown.Item className={`${styles["nav-link"]}`} as={Link} to="/pg-customapi-bandstats" onClick={() => { handleLinkClick(); toggleRef.current.click(); }}>Bandstats API</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Animations & Interactive" id="animations_interactive">
               <NavDropdown.Item className={`${styles["nav-link"]}`} as={Link} to="/pg-multicube" onClick={() => { handleLinkClick(); toggleRef.current.click(); }}>Cube</NavDropdown.Item>
