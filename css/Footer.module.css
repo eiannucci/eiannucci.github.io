@@ -2,6 +2,10 @@
   position: relative;
   background-color: #fff;
   z-index: 20000; }
+  .footer .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .footer a {
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }

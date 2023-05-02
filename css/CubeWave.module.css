@@ -43,14 +43,17 @@
     width: 100%;
     height: 100%; }
   .container .face--front {
-    background: #0F2027;
+    background: #60bde5;
     transform: translateZ(calc(var(--cube-size)/2)); }
   .container .face--back {
     background: #c13414;
     transform: translateZ(calc((var(--cube-size)*-1)/2)) rotateY(180deg); }
   .container .face--left {
     background: #183a35;
-    transform: translateX(calc((var(--cube-size)*-1)/2)) rotateY(-90deg); }
+    transform: translateX(calc((var(--cube-size)*-1)/2)) rotateY(-90deg);
+    background-image: url("https://th.bing.com/th/id/OIP._7xqNG-GJgMRUt-o8CCjLgHaIL?pid=ImgDet&rs=1");
+    background-size: cover;
+    background-attachment: fixed; }
   .container .face--right {
     background: #0F2027;
     transform: translateX(calc(var(--cube-size)/2)) rotateY(90deg); }
