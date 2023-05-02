@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8baf08bf.css",
-    "main.js": "/static/js/main.33790b89.js",
+    "main.css": "/static/css/main.1266fc75.css",
+    "main.js": "/static/js/main.3cbd5655.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Death-Rock.otf": "/static/media/Death-Rock.a3fc7238b2d8d9451db1.otf",
     "static/media/Death-Rock.ttf": "/static/media/Death-Rock.de945250e813f211a237.ttf",
@@ -40,12 +40,12 @@
     "static/media/Hero.otf": "/static/media/Hero.7d1d2ec6c320c39baa8a.otf",
     "static/media/Hero.woff": "/static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "/index.html",
-    "main.8baf08bf.css.map": "/static/css/main.8baf08bf.css.map",
-    "main.33790b89.js.map": "/static/js/main.33790b89.js.map",
+    "main.1266fc75.css.map": "/static/css/main.1266fc75.css.map",
+    "main.3cbd5655.js.map": "/static/js/main.3cbd5655.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8baf08bf.css",
-    "static/js/main.33790b89.js"
+    "static/css/main.1266fc75.css",
+    "static/js/main.3cbd5655.js"
   ]
 }

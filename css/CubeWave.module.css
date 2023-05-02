@@ -1,32 +1,32 @@
 :root {
   --numRowsCols: 10;
-  --cube-size: 40px;
+  --cube-size: 80px;
   --grid-gap: 0px; }
 
 .container {
+  /* align-items: center; */
+  background: #0f2027;
+  background: linear-gradient(80deg, #2c5364, #3da6c9, #0f2027);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: auto;
-  perspective: 500px;
-  visibility: hidden;
-  background: #0F2027;
-  background: linear-gradient(80deg, #2C5364, #3da6c9, #0F2027);
-  overflow: hidden;
   font-size: 10px;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  /* overflow: hidden; */
+  perspective: 700px;
+  visibility: hidden;
+  position: absolute;
+  /* top: 20%; */
+  width: 100%;
   /*  ==========================================================
 		Collection
 		========================================================== */ }
-  .container section {
-    width: 100%;
-    height: 100vh; }
   .container .grid {
     display: grid;
     width: calc(var(--numRowsCols) * var(--cube-size));
     height: calc(var(--numRowsCols) * var(--cube-size));
     transform-style: preserve-3d;
-    transform: rotateX(70deg) rotateZ(0deg) translateX(calc(-1*var(--cube-size)/2));
+    transform: rotateX(45deg) rotateZ(0deg) translateX(calc(-1*var(--cube-size)/2));
     grid-template-columns: repeat(var(--numRowsCols), 1fr);
     grid-template-row: repeat(var(--numRowsCols), 1fr);
     grid-gap: var(--grid-gap);
