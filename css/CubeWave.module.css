@@ -3,6 +3,27 @@
   --cube-size: 40px;
   --grid-gap: 0px; }
 
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  background: #0F2027;
+  background: linear-gradient(80deg, #2C5364, #203A43, #0F2027);
+  overflow: hidden;
+  font-size: 10px; }
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
 .container {
   display: flex;
   align-items: center;
