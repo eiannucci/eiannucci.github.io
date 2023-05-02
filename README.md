@@ -1,8 +1,12 @@
-# Package Dependencies
+# Elijah Iannucci's React Portfolio
+
+-This is the repository for my personal website built with React. It showcases my portfolio, blog, and other personal projects. 
 
 This project has the following dependencies:
 
-## React Libraries
+## Package Dependencies
+
+This project has the following dependencies:## React Libraries
 
 - @chakra-ui/button: A library of accessible and customizable UI components for React.
 - @emotion/react: A CSS-in-JS library for React.
