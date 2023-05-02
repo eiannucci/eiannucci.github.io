@@ -34,7 +34,7 @@ let btnList = [
   },
   {
     img: "https://www.bl.uk/britishlibrary/~/media/bl/global/dl%20shakespeare/authors/shakespeare-people-page.jpg",
-    title: "Shakesperian Insult Generator",
+    title: "Shakespearian Insult Generator",
     desc: "Insult Thyself...",
     id: "InsultGenerator",
     image: true,
@@ -89,7 +89,6 @@ export const MainContent = () => {
   };
 
   useEffect(() => {
-    // simulate loading delay
     setTimeout(() => setIsLoading(false), 1000);
   }, []);
 
@@ -103,13 +102,12 @@ export const MainContent = () => {
         ) : (
           btnList.map((btn, i) => {
             return (
-              <Col xs={12} lg={4} key={i} className="my-3">
-                <Container className={styles["card-tile-container"]}>
+              <Col xs={12} md={6} key={i} className="my-3">
+                <Container className={styles["card-tile-container"]} >
                   <div
                     onClick={handleTileClick}
                     id={btn.id}
-                    className={styles["shadow"]}
-                  >
+                    className={styles["shadow"]}                  >
                     <Row>
                       <Col
                         className={classNames(
