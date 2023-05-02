@@ -1,0 +1,43 @@
+.border {
+  border: 1px solid black;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; }
+
+.custom-card-body-1 {
+  color: #16169d;
+  background: #3e9ac2;
+  background: -moz-linear-gradient(112deg, white 0%, rgba(27, 181, 236, 0.895418) 69%);
+  background: -webkit-linear-gradient(112deg, white 0%, rgba(27, 181, 236, 0.895418) 69%);
+  background: linear-gradient(112deg, white 0%, rgba(27, 181, 236, 0.895418) 69%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#1bb5ec", GradientType=1); }
+
+.custom-card-body-2 {
+  background: #7a14d9;
+  background: -moz-linear-gradient(112deg, #7a14d9 0%, rgba(222, 30, 221, 0.482252) 69%);
+  background: -webkit-linear-gradient(112deg, #7a14d9 0%, rgba(222, 30, 221, 0.482252) 69%);
+  background: linear-gradient(112deg, #7a14d9 0%, rgba(222, 30, 221, 0.482252) 69%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7a14d9", endColorstr="#de1edd", GradientType=1); }
+
+.custom-card-body-3 {
+  background: #3e9ac2;
+  background: -moz-linear-gradient(342deg, #382be2 0%, rgba(236, 119, 27, 0.895418) 69%);
+  background: -webkit-linear-gradient(342deg, #382be2 0%, rgba(236, 119, 27, 0.895418) 69%);
+  background: linear-gradient(342deg, #382be2 0%, #ec771be4 69%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#382be2", endColorstr="#ec771b", GradientType=1); }
+
+.custom-card-body-4 {
+  background: #3e9ac2;
+  background: -moz-radial-gradient(circle, #382be2 0%, rgba(147, 27, 236, 0.557696) 69%);
+  background: -webkit-radial-gradient(circle, #382be2 0%, rgba(147, 27, 236, 0.557696) 69%);
+  background: radial-gradient(circle, #382be2 0%, rgba(147, 27, 236, 0.557696) 69%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#382be2", endColorstr="#931bec", GradientType=1); }
+
+p h1 {
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  white-space: nowrap; }
+
+img {
+  max-width: 100%; }
