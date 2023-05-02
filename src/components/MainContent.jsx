@@ -103,7 +103,7 @@ export const MainContent = () => {
         ) : (
           btnList.map((btn, i) => {
             return (
-              <Col xs={12} lg={4} key={i} className="my-3">
+              <Col xs={12} md={6} key={i} className="my-3">
                 <Container className={styles["card-tile-container"]} >
                   <div
                     onClick={handleTileClick}
