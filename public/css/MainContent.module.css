@@ -1,7 +1,8 @@
 .card-tile-container {
   background-color: white;
   position: relative;
-  cursor: pointer; }
+  cursor: pointer;
+  padding: 0 !important; }
 
 .tile-img {
   max-width: 100%;

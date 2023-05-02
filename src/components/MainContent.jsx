@@ -104,12 +104,11 @@ export const MainContent = () => {
           btnList.map((btn, i) => {
             return (
               <Col xs={12} lg={4} key={i} className="my-3">
-                <Container className={styles["card-tile-container"]}>
+                <Container className={styles["card-tile-container"]} >
                   <div
                     onClick={handleTileClick}
                     id={btn.id}
-                    className={styles["shadow"]}
-                  >
+                    className={styles["shadow"]}                  >
                     <Row>
                       <Col
                         className={classNames(
