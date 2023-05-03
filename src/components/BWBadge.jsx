@@ -5,7 +5,7 @@ import "../scss/BWBadge.module.scss";
 
 export const BlackWhiteBadge = () => {
   return (
-    <a href="#" className="badge">
+    <a href="https://eiannucci.github.io/" className="badge">
       <svg viewBox="0 0 210 210">
         <g stroke="none" fill="none">
           <path

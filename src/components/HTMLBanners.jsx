@@ -9,8 +9,8 @@ import { Square3 } from "./animated-banners/Sqaure3";
 import { TowerTopPanel } from './animated-banners/Tower1';
 import { TowerSidePanel } from './animated-banners/Tower2';
 import { TowerBottomPanel } from './animated-banners/Tower3';
-import { VideoRevealBanner } from './ReactBannerVideoReveal';
-import { BlackWhiteBadge } from './BWBadge';
+// import { VideoRevealBanner } from './ReactBannerVideoReveal';
+// import { BlackWhiteBadge } from './BWBadge';
 
 export const Banner = () => {
   const pageRef = useRef(null);

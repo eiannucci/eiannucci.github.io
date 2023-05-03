@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Container,
   Row,
@@ -16,7 +16,7 @@ export const HeroSearchApp = () => {
   const [heroStateOne, setHeroStateOne] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [isLoading, setIsLoading] = useState(true);
-  const urlRef = useRef();
+  // const urlRef = useRef();
 
   useEffect(() => {
     fetch("https://akabab.github.io/superhero-api/api/all.json")

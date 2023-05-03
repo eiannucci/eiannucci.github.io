@@ -3,7 +3,6 @@ import {
   Container,
   Row,
   Col,
-  Input,
   InputGroup,
   Spinner,
 } from "react-bootstrap";

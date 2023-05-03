@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import gsap from "gsap";
 import styles from '../scss/PopInBtn.module.scss';
