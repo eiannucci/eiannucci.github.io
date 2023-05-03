@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  InputGroup,
-  Spinner,
-} from "react-bootstrap";
+import { Container, Row, Col, InputGroup, Spinner } from "react-bootstrap";
 import { FaGalacticRepublic } from "react-icons/fa";
 import { BackToTopButton } from "./BackToTopBtn";
 import Form from "react-bootstrap/Form";
@@ -60,10 +54,8 @@ export const SolarSearchApp = () => {
   );
 
   return (
-    <Container fluid >
-      <Row>
-        <Col>
-        <Container fluid>
+    <React.Fragment>
+      <Container fluid>
         <Row>
           <Col>
             <InputGroup className="my-3">
@@ -88,11 +80,7 @@ export const SolarSearchApp = () => {
         </div>
       ) : (
         filteredPlanets.map((planet) => (
-          <Container
-            fluid
-            className={'g-0'}
-            key={planet.englishName}
-          >
+          <Container fluid className={"g-0"} key={planet.englishName}>
             <Row>
               <Col>
                 <div className={styles["planet-container"]}>
@@ -124,8 +112,6 @@ export const SolarSearchApp = () => {
           </Container>
         ))
       )}
-        </Col>
-      </Row>
-    </Container>
+    </React.Fragment>
   );
 };
