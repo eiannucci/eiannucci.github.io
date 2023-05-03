@@ -14,10 +14,10 @@ export const CubeWave = () => {
     let grid;
 
     const init = () => {
-      let cubeWidth;
+      // let cubeWidth;
       styleVars = getComputedStyle(document.documentElement);
       numRowsCols = styleVars.getPropertyValue("--numRowsCols");
-      cubeWidth = parseInt(styleVars.getPropertyValue("--cube-size").replace("px", ""));
+      // cubeWidth = parseInt(styleVars.getPropertyValue("--cube-size").replace("px", ""));
       numCubes = numRowsCols * numRowsCols;
       cube = select(`.${styles.cube}`);
       grid = select(`.${styles.grid}`);
