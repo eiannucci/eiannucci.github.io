@@ -1,8 +1,8 @@
 import { React, useState, useEffect } from "react";
-import { Container, Row, Col, ListGroup, Placeholder, Card } from "react-bootstrap";
+import { Container, Row, Col, ListGroup, Card } from "react-bootstrap";
 import { gsap } from "gsap";
 import classNames from 'classnames';
-import { Button } from "@chakra-ui/button";
+// import { Button } from "@chakra-ui/button";
 
 import styles from '../scss/AnimatedMediaCards.module.scss';
 import 'holderjs';
@@ -10,17 +10,17 @@ import 'holderjs';
 export const MultipleCardsPage = () => {
   const [firstName, setFirstName] = useState(null);
   const [lastName, setLastName] = useState(null);
-  const [location, setLocation] = useState(null);
-  const [city, setCity] = useState(null);
+  // const [location, setLocation] = useState(null);
+  // const [city, setCity] = useState(null);
   const [country, setCountry] = useState(null);
-  const [lat, setLat] = useState(null);
-  const [long, setLong] = useState(null);
-  const [state, setState] = useState(null);
+  // const [lat, setLat] = useState(null);
+  // const [long, setLong] = useState(null);
+  // const [state, setState] = useState(null);
   const [img, setImg] = useState(null);
   const [empEmail, setEmpEmail] = useState(null);
   const [cell, setCell] = useState(null);
   const [username, setUsername] = useState(null);
-  const [regDate, setregDate] = useState(null);
+  // const [regDate, setregDate] = useState(null);
 
   useEffect(() => {
     fetch("https://randomuser.me/api/?results=1")
@@ -29,16 +29,16 @@ export const MultipleCardsPage = () => {
         // console.log(data);
         setFirstName(data.results[0].name.first);
         setLastName(data.results[0].name.last);
-        setCity(data.results[0].location.city);
+        // setCity(data.results[0].location.city);
         setCountry(data.results[0].location.country);
-        setLat(data.results[0].location.coordinates.latitude);
-        setLong(data.results[0].location.coordinates.longitude);
-        setState(data.results[0].location.state);
+        // setLat(data.results[0].location.coordinates.latitude);
+        // setLong(data.results[0].location.coordinates.longitude);
+        // setState(data.results[0].location.state);
         setImg(data.results[0].picture.large);
         setEmpEmail(data.results[0].email);
         setCell(data.results[0].cell);
         setUsername(data.results[0].login.username);
-        setregDate(data.results[0].registered.date);
+        // setregDate(data.results[0].registered.date);
       });
 
     gsap.to(".box", { rotate: 360, duration: 10 });
@@ -120,7 +120,7 @@ export const MultipleCardsPage = () => {
             <div className={classNames(styles['custom-card-body-4'], styles['border'], 'text-white', 'card-body')}>
               <h5 className={'card-title'}>Special title treatment</h5>
               <p>With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" className={'btn btn-primary'}>Go somewhere</a>
+              <a href="https://eiannucci.github.io/" className={'btn btn-primary'}>Go somewhere</a>
             </div>
             <div className={'card-footer text-muted'}>
               2 days ago

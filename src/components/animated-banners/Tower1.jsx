@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
-import { AnimatedWaveFormComponent } from '../WaveFormAnimation';
 import styles from '../../scss/AnimatedBannerAds.module.scss';
 
 export const TowerTopPanel = () => {

@@ -7,7 +7,7 @@ export const Square2 = () => {
   const textRef1 = useRef(null);
   const textRef2 = useRef(null);
   const logoRef4 = useRef(null);
-  const btnRef = useRef(null);
+  // const btnRef = useRef(null);
 
   const runBannerAnimation = () => {
     gsap.fromTo(

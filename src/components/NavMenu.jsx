@@ -25,7 +25,7 @@ export const NavMenu = () => {
       ease: 'power1.inOut'
     });
 
-    const navbarHeight = navbarRef.current.offsetHeight;
+    // const navbarHeight = navbarRef.current.offsetHeight;
     // console.log(navbarHeight);
   }, []);
 
