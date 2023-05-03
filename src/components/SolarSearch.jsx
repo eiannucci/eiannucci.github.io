@@ -60,8 +60,10 @@ export const SolarSearchApp = () => {
   );
 
   return (
-    <div>
-      <Container fluid className={styles.searchContainer}>
+    <Container fluid >
+      <Row>
+        <Col>
+        <Container fluid>
         <Row>
           <Col>
             <InputGroup className="my-3">
@@ -88,7 +90,7 @@ export const SolarSearchApp = () => {
         filteredPlanets.map((planet) => (
           <Container
             fluid
-            className={styles["planet-cards"]}
+            className={'g-0'}
             key={planet.englishName}
           >
             <Row>
@@ -122,6 +124,8 @@ export const SolarSearchApp = () => {
           </Container>
         ))
       )}
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
