@@ -36,9 +36,9 @@ export const BandStatsAPI = () => {
     setTimeout(() => {
       ReactGA.initialize('G-SSE6730X77');
       ReactGA.pageview(window.location.pathname + window.location.search);
-      console.log(ReactGA);
+      console.log(window.location.pathname + window.location.search);
       console.log(ReactGA.pageview);
-    }, 1000); // delay in milliseconds
+    }, 1000);
   }, []);
   
 
