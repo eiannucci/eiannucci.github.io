@@ -3,20 +3,21 @@ import styles from "../scss/CubeWave.module.scss";
 import gsap from "gsap";
 
 export const CubeWave = () => {
+
   useEffect(() => {
     const select = (e) => document.querySelector(e);
 
     let styleVars;
     let numRowsCols;
-    let cubeWidth;
     let numCubes;
     let cube;
     let grid;
 
     const init = () => {
+      // let cubeWidth;
       styleVars = getComputedStyle(document.documentElement);
       numRowsCols = styleVars.getPropertyValue("--numRowsCols");
-      cubeWidth = parseInt(styleVars.getPropertyValue("--cube-size").replace("px", ""));
+      // cubeWidth = parseInt(styleVars.getPropertyValue("--cube-size").replace("px", ""));
       numCubes = numRowsCols * numRowsCols;
       cube = select(`.${styles.cube}`);
       grid = select(`.${styles.grid}`);
@@ -59,7 +60,7 @@ export const CubeWave = () => {
 
   return (
     <div className={styles.container}>
-    {/* <div style={{width:'100%',  position: 'absolute'}}></div> */}
+      {/* <div style={{width:'100%',  position: 'absolute'}}></div> */}
 
       <div className={styles.grid}>
         <div className={styles.cube}>
@@ -69,7 +70,6 @@ export const CubeWave = () => {
           <div className={`${styles.face} ${styles["face--right"]}`}></div>
           <div className={`${styles.face} ${styles["face--top"]}`}></div>
           <div className={`${styles.face} ${styles["face--bottom"]}`}></div>
-
         </div>
       </div>
     </div>

@@ -3,8 +3,24 @@ import { Container, Row, Col } from "react-bootstrap";
 import styles from "../scss/MultiCube.module.scss";
 
 export const MultiCube = () => {
+  var windowHeight = window.innerHeight;
+
+
+  var middle = windowHeight / 2;
+
+  var topPosition = middle - (336 / 2);
+  var cube = document.getElementById('cube');
+
+  if (cube) {
+    // The cube element exists, so we can access its style property
+    cube.style.top = topPosition + 'px';
+  } else {
+    // The cube element doesn't exist, so we can't access its style property
+    console.error('Cube element not found');
+  }
+  
   return (
-    <Container>
+    <Container id="cube">
       <Row>
         <Col>
           <div className={styles.container}>
