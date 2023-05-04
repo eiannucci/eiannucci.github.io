@@ -1,5 +1,6 @@
-import React from "react";
+import { React, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import ReactGA from 'react-ga';
 import styles from "../scss/MultiCube.module.scss";
 
 export const MultiCube = () => {
@@ -18,6 +19,12 @@ export const MultiCube = () => {
     // The cube element doesn't exist, so we can't access its style property
     console.error('Cube element not found');
   }
+
+  useEffect(() => {
+    ReactGA.initialize('G-SSE6730X77');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(ReactGA);
+  }, []);
   
   return (
     <Container id="cube">

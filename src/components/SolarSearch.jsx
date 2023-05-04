@@ -3,6 +3,7 @@ import { Container, Row, Col, InputGroup, Spinner } from "react-bootstrap";
 import { FaGalacticRepublic } from "react-icons/fa";
 import { BackToTopButton } from "./BackToTopBtn";
 import Form from "react-bootstrap/Form";
+import ReactGA from 'react-ga';
 import styles from "../scss/SolarSearch.module.scss";
 // import "../scss/FontFace.module.scss";
 
@@ -42,6 +43,11 @@ export const SolarSearchApp = () => {
         console.error("Error fetching data:", error);
         setLoading(false);
       });
+
+        ReactGA.initialize('G-SSE6730X77');
+        ReactGA.pageview(window.location.pathname + window.location.search);
+        console.log(ReactGA);
+
   }, []);
 
   const handleSearch = (event) => {

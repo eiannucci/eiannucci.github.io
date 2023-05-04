@@ -8,13 +8,6 @@ import ReactGA from 'react-ga';
 import styles from "../scss/MainContent.module.scss";
 import "../scss/FireBadge.module.scss";
 
-ReactGA.initialize('G-SSE6730X77');
-
-// componentDidMount() {
-//   ReactGA.pageview(window.location.pathname + window.location.search);
-// }
-
-
 let btnList = [
   {
     img: "https://townsquare.media/site/366/files/2020/12/90salbums.jpg",
@@ -98,6 +91,7 @@ export const MainContent = () => {
 
   useEffect(() => {
     setTimeout(() => setIsLoading(false), 1000);
+    ReactGA.initialize('G-SSE6730X77');
     ReactGA.pageview(window.location.pathname + window.location.search);
     console.log(ReactGA);
   }, []);

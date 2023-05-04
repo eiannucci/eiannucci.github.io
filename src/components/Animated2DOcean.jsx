@@ -3,12 +3,17 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Wave from 'react-wavify';
 import { gsap } from 'gsap';
 import styles from '../scss/Animated2DOcean.module.scss';
+import ReactGA from 'react-ga';
 
 export const OceanWave = () => {
   const cloudRef = useRef(null);
   const cloudRef2 = useRef(null);
 
   useEffect(() => {
+    ReactGA.initialize('G-SSE6730X77');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(ReactGA);
+    
     const tl = gsap.timeline({ repeat: 1, yoyo: true });
     tl.to(cloudRef.current, { duration: 100, x: 200, transform: 'translate(500px, 50px)' });
     tl.to(cloudRef.current, { duration: 100, y: 50, transform: 'translate(500px, 100px)' });

@@ -2,6 +2,7 @@ import { React, useState, useEffect } from "react";
 import { Container, Row, Col, ListGroup, Card } from "react-bootstrap";
 import { gsap } from "gsap";
 import classNames from 'classnames';
+import ReactGA from 'react-ga';
 // import { Button } from "@chakra-ui/button";
 
 import styles from '../scss/AnimatedMediaCards.module.scss';
@@ -54,6 +55,11 @@ export const MultipleCardsPage = () => {
       yoyo: true,
       ease: 'power1.inOut'
     });
+
+    ReactGA.initialize('G-SSE6730X77');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(ReactGA);
+    
   }, []);
 
   return (

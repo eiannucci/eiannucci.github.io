@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AwesomeSlider from "react-awesome-slider";
 // import { MultiCube } from "./MultiCube";
 import { OceanWave } from './Animated2DOcean';
@@ -8,6 +8,7 @@ import { ShapeShiftAnimation } from './PopInAnimation';
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 import styles from '../scss/AnimationPageCarousel.module.scss';
+import ReactGA from 'react-ga';
 
 const comps = [<SplitLayerAnimation />, <OceanWave />, <AnimatedWaveFormComponent />, <ShapeShiftAnimation />];
 
@@ -21,6 +22,12 @@ export const AnimationsCarouselControlled = () => {
     const handleNext = () => {
         setSelectedIndex((selectedIndex + 1) % comps.length);
     };
+
+    useEffect(() => {
+        ReactGA.initialize('G-SSE6730X77');
+        ReactGA.pageview(window.location.pathname + window.location.search);
+        console.log(ReactGA);
+      }, []);
 
     return (
         <div className={styles['carousel-container']}>
