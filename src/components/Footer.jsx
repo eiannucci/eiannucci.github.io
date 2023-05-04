@@ -105,17 +105,19 @@ export const Footer = () => {
           <Col xs={12}>
             {/* <hr className={styles.divider} /> */}
             <span className={styles.copy}>&copy; 2023 Elijah Iannucci</span>
-            <a
+            
+            {/* <a
               rel="license"
               href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
             >
+           
               <img
                 alt="Creative Commons License"
                 style={{ borderWidth: "0" }}
                 src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
               />
-            </a>
-            <br />
+            </a> */}
+            <span className={styles.version}> V 1.7.0</span>
           </Col>
         </Row>
       </Container>

@@ -4,8 +4,16 @@ import { useNavigate } from "react-router-dom";
 import { AnimatedFireBadge } from "../components/FireBadge";
 import { OceanWave } from "../components/Animated2DOcean";
 import classNames from "classnames";
+import ReactGA from 'react-ga';
 import styles from "../scss/MainContent.module.scss";
 import "../scss/FireBadge.module.scss";
+
+ReactGA.initialize('G-ZHL2SZMPDY');
+
+// componentDidMount() {
+//   ReactGA.pageview(window.location.pathname + window.location.search);
+// }
+
 
 let btnList = [
   {
@@ -90,6 +98,8 @@ export const MainContent = () => {
 
   useEffect(() => {
     setTimeout(() => setIsLoading(false), 1000);
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(ReactGA);
   }, []);
 
   return (
