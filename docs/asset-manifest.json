@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.bb6e41f2.css",
-    "main.js": "./static/js/main.9941c3d5.js",
+    "main.js": "./static/js/main.3def4d71.js",
     "static/media/Death-Rock.otf": "./static/media/Death-Rock.a3fc7238b2d8d9451db1.otf",
     "static/media/Death-Rock.ttf": "./static/media/Death-Rock.de945250e813f211a237.ttf",
     "static/media/Death-Rock.woff2": "./static/media/Death-Rock.e1881e9f215f3399928e.woff2",
@@ -40,10 +40,10 @@
     "static/media/Hero.woff": "./static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "./index.html",
     "main.bb6e41f2.css.map": "./static/css/main.bb6e41f2.css.map",
-    "main.9941c3d5.js.map": "./static/js/main.9941c3d5.js.map"
+    "main.3def4d71.js.map": "./static/js/main.3def4d71.js.map"
   },
   "entrypoints": [
     "static/css/main.bb6e41f2.css",
-    "static/js/main.9941c3d5.js"
+    "static/js/main.3def4d71.js"
   ]
 }

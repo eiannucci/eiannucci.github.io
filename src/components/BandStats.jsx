@@ -33,10 +33,14 @@ export const BandStatsAPI = () => {
 
   useEffect(() => {
     fetchData();
-    ReactGA.initialize('G-SSE6730X77');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-    console.log(ReactGA);
+    setTimeout(() => {
+      ReactGA.initialize('G-SSE6730X77');
+      ReactGA.pageview(window.location.pathname + window.location.search);
+      console.log(ReactGA);
+      console.log(ReactGA.pageview);
+    }, 1000); // delay in milliseconds
   }, []);
+  
 
   return (
     <Container fluid>
