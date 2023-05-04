@@ -8,7 +8,7 @@ import ReactGA from 'react-ga';
 import styles from "../scss/MainContent.module.scss";
 import "../scss/FireBadge.module.scss";
 
-ReactGA.initialize('G-ZHL2SZMPDY');
+ReactGA.initialize('G-SSE6730X77');
 
 // componentDidMount() {
 //   ReactGA.pageview(window.location.pathname + window.location.search);
