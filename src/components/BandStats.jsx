@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row, Spinner } from "react-bootstrap";
+import ReactGA from 'react-ga';
+
 import styles from "../scss/BandStats.module.scss";
 
 export const BandStatsAPI = () => {
@@ -31,6 +33,9 @@ export const BandStatsAPI = () => {
 
   useEffect(() => {
     fetchData();
+    ReactGA.initialize('G-SSE6730X77');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(ReactGA);
   }, []);
 
   return (

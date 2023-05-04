@@ -9,6 +9,7 @@ import { Square3 } from "./animated-banners/Sqaure3";
 import { TowerTopPanel } from './animated-banners/Tower1';
 import { TowerSidePanel } from './animated-banners/Tower2';
 import { TowerBottomPanel } from './animated-banners/Tower3';
+import ReactGA from 'react-ga';
 // import { VideoRevealBanner } from './ReactBannerVideoReveal';
 // import { BlackWhiteBadge } from './BWBadge';
 
@@ -19,6 +20,11 @@ export const Banner = () => {
     if (pageRef.current) {
       pageRef.current.scrollIntoView({ behavior: "smooth" });
     }
+
+    ReactGA.initialize('G-SSE6730X77');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(ReactGA);
+    
   }, []);
 
   return (

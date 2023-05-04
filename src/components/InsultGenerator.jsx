@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShield } from '@fortawesome/free-solid-svg-icons';
 import classNames from 'classnames';
+import ReactGA from 'react-ga';
+
 import styles from "../scss/InsultGenerator.module.scss";
 import '../scss/FontFace.module.scss';
 
@@ -27,6 +29,12 @@ export const ShakespeareanInsults = () => {
     insultBtnText.textContent = 'Insult me again!';
     setInsult(newInsult);
   };
+
+  useEffect(() => {
+    ReactGA.initialize('G-SSE6730X77');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(ReactGA);
+  }, []);
 
   return (
     <Container fluid className={styles['rel-container']}>

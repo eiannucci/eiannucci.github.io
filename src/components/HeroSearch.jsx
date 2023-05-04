@@ -11,6 +11,8 @@ import Form from "react-bootstrap/Form";
 import "../scss/FontFace.module.scss";
 import styles from "../scss/HeroSearch.module.scss";
 import { BackToTopButton } from "./BackToTopBtn";
+import ReactGA from 'react-ga';
+
 
 export const HeroSearchApp = () => {
   const [heroStateOne, setHeroStateOne] = useState([]);
@@ -30,6 +32,10 @@ export const HeroSearchApp = () => {
         setHeroStateOne(heroSet1);
         setIsLoading(false);
       });
+
+      ReactGA.initialize('G-SSE6730X77');
+      ReactGA.pageview(window.location.pathname + window.location.search);
+      console.log(ReactGA);
   }, []);
 
   const handleSearch = (event) => {

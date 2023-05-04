@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import ReactGA from 'react-ga';
 import styles from "../scss/CubeWave.module.scss";
 import gsap from "gsap";
 
@@ -54,6 +55,10 @@ export const CubeWave = () => {
         },
       });
     };
+
+    ReactGA.initialize('G-SSE6730X77');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(ReactGA);
 
     init();
   }, []);
