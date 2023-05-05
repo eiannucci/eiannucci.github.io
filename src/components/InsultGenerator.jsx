@@ -43,7 +43,7 @@ export const ShakespeareanInsults = () => {
       </Row>
       <Row>
         <Col className={classNames(styles["button-container"])}>
-          <button onClick={generateInsult} className={classNames(styles.btn, styles["insult-btn"])}><span className='insult-btn-text'><FontAwesomeIcon icon={faShield} size="lg" /><span className={styles['btn-inner-txt']}>Generate Insult</span></span></button>
+          <button onClick={generateInsult} className={classNames(styles.btn, styles["insult-btn"])}><span className='insult-btn-text'><span className={styles['btn-inner-txt']}>Generate Insult</span></span></button>
         </Col>
       </Row>
       <Row>
