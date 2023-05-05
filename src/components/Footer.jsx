@@ -117,7 +117,7 @@ export const Footer = () => {
                 src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
               />
             </a> */}
-            <span className={styles.version}> V 1.7.0</span>
+            <span className={styles.version}> V 1.9.0</span>
           </Col>
         </Row>
       </Container>
