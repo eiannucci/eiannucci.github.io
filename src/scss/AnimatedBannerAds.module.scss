@@ -21,6 +21,14 @@
         z-index: 3;
         position: absolute;
         right: 2px;
+        padding: 1rem;
+
+        button {
+            background-color: #243e68 !important;
+            padding: .5rem;
+            color: #fff;
+            border-radius: 1rem;
+        }
     }
 
     &.gradient1 {
@@ -63,7 +71,7 @@
         position: relative;
 
         .animated-panel {
-            background-color: #fff;
+            background-color: transparent;
             color: #fff;
             font-family:'Times New Roman', Times, serif;
             font-weight: bolder;
@@ -257,6 +265,7 @@
             font-size: 1.5rem;
             color: #fff;
             line-height: 1.25rem;
+            padding: .5rem;
             p {
                 font-size: 1rem;
                 padding-left: 0;

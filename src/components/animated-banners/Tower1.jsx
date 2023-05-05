@@ -34,9 +34,9 @@ export const TowerTopPanel = () => {
                     <li>Sed</li>
                 </ul>
             </div>
-            <span className={'g-0'} >
+            {/* <span className={'g-0'} >
             <button type="button" class="btn btn-primary" className={styles['repeat-btn']} onClick={runBannerAnimation}>Run Again</button>
-          </span>
+          </span> */}
         </div>
     )
 }
