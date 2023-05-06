@@ -118,7 +118,7 @@ export const MultipleCardsPage = () => {
       </Row>
 
       <Row>
-        <Col className={'mb-3'}>
+        <Col className={'mb-2 custom-card-body-3'}>
           <div className={'card text-center'}>
             <div className={styles['card-text']}>
               Featured
