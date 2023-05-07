@@ -10,7 +10,7 @@ import {
 import Form from "react-bootstrap/Form";
 import "../scss/FontFace.module.scss";
 import styles from "../scss/HeroSearch.module.scss";
-import { BackToTopButton } from "./BackToTopBtn";
+import { BackToTopButton } from "./HeroBackToTopBtn";
 import ReactGA from 'react-ga';
 
 
