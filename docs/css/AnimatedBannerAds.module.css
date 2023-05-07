@@ -210,7 +210,8 @@
     .banner.bannerWidth300 .bodyTxt {
       font-size: 1.5rem;
       color: #fff;
-      line-height: 1.25rem; }
+      line-height: 1.25rem;
+      padding: .5rem; }
       .banner.bannerWidth300 .bodyTxt p {
         font-size: 1rem;
         padding-left: 0; }
