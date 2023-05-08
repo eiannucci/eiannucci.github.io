@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import AwesomeSlider from "react-awesome-slider";
 // import { MultiCube } from "./MultiCube";
 import { OceanWave } from './Animated2DOcean';
-import { SplitLayerAnimation } from './SplitLayerAnimation';
+// import { SplitLayerAnimation } from './SplitLayerAnimation';
 import { AnimatedWaveFormComponent } from './WaveFormAnimation';
 import { ShapeShiftAnimation } from './PopInAnimation';
 import "react-awesome-slider/dist/styles.css";
@@ -10,7 +10,7 @@ import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 import styles from '../scss/AnimationPageCarousel.module.scss';
 import ReactGA from 'react-ga';
 
-const comps = [<SplitLayerAnimation />, <OceanWave />, <AnimatedWaveFormComponent />, <ShapeShiftAnimation />];
+const comps = [<OceanWave />, <AnimatedWaveFormComponent />, <ShapeShiftAnimation />];
 
 export const AnimationsCarouselControlled = () => {
     const [selectedIndex, setSelectedIndex] = useState(0);
