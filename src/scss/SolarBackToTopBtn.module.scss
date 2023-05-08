@@ -14,18 +14,9 @@
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
     font-size: .75rem;
-    padding: 1rem;
   }
 
-  .btt-btn {
-    color: #fff;
-    position: absolute;
-    right: 1rem;
-    cursor: pointer;
-    // background-size: contain;
-    // background-repeat: no-repeat;
-    // background-image: url('https://icon2.cleanpng.com/20171221/bvw/sunlight-5a3c547cb70f85.4726509615139032287498.jpg');
-  }
+
   
   @media (max-width: 760px) {
     .btt-btn {
@@ -34,5 +25,16 @@
       bottom: 0;
       max-width: 50px;
     }
+  }
+
+  .btt-btn {
+    color: #fff;
+    position: absolute;
+    top: 1.75rem;
+    right: 1.5rem;
+    cursor: pointer;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-image: url('https://icon2.cleanpng.com/20171221/bvw/sunlight-5a3c547cb70f85.4726509615139032287498.jpg');
   }
   

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, InputGroup, Spinner } from "react-bootstrap";
 import { FaGalacticRepublic } from "react-icons/fa";
-import { SolarBackToTopButton } from './SolarBackToTopBtn';
+import { SolarBackToTopButton } from "./SolarBackToTopBtn";
 import Form from "react-bootstrap/Form";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 import styles from "../scss/SolarSearch.module.scss";
 // import "../scss/FontFace.module.scss";
 
@@ -44,10 +44,9 @@ export const SolarSearchApp = () => {
         setLoading(false);
       });
 
-        ReactGA.initialize('G-SSE6730X77');
-        ReactGA.pageview(window.location.pathname + window.location.search);
-        console.log(ReactGA);
-
+    ReactGA.initialize("G-SSE6730X77");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(ReactGA);
   }, []);
 
   const handleSearch = (event) => {
@@ -90,27 +89,29 @@ export const SolarSearchApp = () => {
             <Row>
               <Col>
                 <div className={styles["planet-container"]}>
-                  <SolarBackToTopButton />
-                  <div className={styles["planet-name"]}>
-                    {planet.englishName}
-                  </div>
-                  <div className={styles.planetInfo}>
-                    <span className={styles["type-header"]}>Body Type:</span>
-                    <span className={styles["type-details"]}>
-                      {planet.bodyType}
-                    </span>
-                  </div>
-                  <div className={styles.planetInfo}>
-                    <span className={styles["type-header"]}>Gravity:</span>
-                    <span className={styles["type-details"]}>
-                      {planet.gravity}
-                    </span>
-                  </div>
-                  <div className={styles.planetInfo}>
-                    <span className={styles["type-header"]}>Density:</span>
-                    <span className={styles["type-details"]}>
-                      {planet.density}
-                    </span>
+                  <div style={{background:'#0000ff80', padding:'1rem', borderRadius: '10px'}}>
+                    <SolarBackToTopButton />
+                    <div className={styles["planet-name"]}>
+                      {planet.englishName}
+                    </div>
+                    <div className={styles.planetInfo}>
+                      <span className={styles["type-header"]}>Body Type:</span>
+                      <span className={styles["type-details"]}>
+                        {planet.bodyType}
+                      </span>
+                    </div>
+                    <div className={styles.planetInfo}>
+                      <span className={styles["type-header"]}>Gravity:</span>
+                      <span className={styles["type-details"]}>
+                        {planet.gravity}
+                      </span>
+                    </div>
+                    <div className={styles.planetInfo}>
+                      <span className={styles["type-header"]}>Density:</span>
+                      <span className={styles["type-details"]}>
+                        {planet.density}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </Col>
