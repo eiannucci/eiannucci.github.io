@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.213707af.css",
-    "main.js": "./static/js/main.ea1fb6ef.js",
+    "main.css": "./static/css/main.5964b81c.css",
+    "main.js": "./static/js/main.edafd9f2.js",
     "static/media/Death-Rock.otf": "./static/media/Death-Rock.a3fc7238b2d8d9451db1.otf",
     "static/media/Death-Rock.ttf": "./static/media/Death-Rock.de945250e813f211a237.ttf",
     "static/media/Death-Rock.woff2": "./static/media/Death-Rock.e1881e9f215f3399928e.woff2",
@@ -39,11 +39,11 @@
     "static/media/Hero.otf": "./static/media/Hero.7d1d2ec6c320c39baa8a.otf",
     "static/media/Hero.woff": "./static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "./index.html",
-    "main.213707af.css.map": "./static/css/main.213707af.css.map",
-    "main.ea1fb6ef.js.map": "./static/js/main.ea1fb6ef.js.map"
+    "main.5964b81c.css.map": "./static/css/main.5964b81c.css.map",
+    "main.edafd9f2.js.map": "./static/js/main.edafd9f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.213707af.css",
-    "static/js/main.ea1fb6ef.js"
+    "static/css/main.5964b81c.css",
+    "static/js/main.edafd9f2.js"
   ]
 }

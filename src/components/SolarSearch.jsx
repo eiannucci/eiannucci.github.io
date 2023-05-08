@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, InputGroup, Spinner } from "react-bootstrap";
 import { FaGalacticRepublic } from "react-icons/fa";
-import { SolarBackToTopButton } from "./SolarBackToTopBtn";
+import { SolarBackToTopButton } from './SolarBackToTopBtn';
 import Form from "react-bootstrap/Form";
 import ReactGA from 'react-ga';
 import styles from "../scss/SolarSearch.module.scss";
