@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row, Spinner } from "react-bootstrap";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 
 import styles from "../scss/BandStats.module.scss";
 
@@ -34,13 +34,12 @@ export const BandStatsAPI = () => {
   useEffect(() => {
     fetchData();
     setTimeout(() => {
-      ReactGA.initialize('G-SSE6730X77');
+      ReactGA.initialize("G-SSE6730X77");
       ReactGA.pageview(window.location.pathname + window.location.search);
       console.log(window.location.pathname + window.location.search);
       console.log(ReactGA.pageview);
     }, 1000);
   }, []);
-  
 
   return (
     <Container fluid>
@@ -74,35 +73,43 @@ export const BandStatsAPI = () => {
                     </Col>
                   </Row>
                   <Row>
-                    <h4>Members:</h4>
-                    {band.members && (
-                      <ul>
-                        {band.members.map((member) => (
-                          <li key={member.name}>
-                            {member.name} ({member.instruments.join(", ")})
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                    <h4>Albums:</h4>
-                    {band.albums && band.albums.length > 0 ? (
-                      <ul>
-                        {band.albums.map((album) => (
-                          <li key={album.title}>
-                            {album.title} ({album.year})
-                          </li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <p>No albums found.</p>
-                    )}
-                    <h4>Highest charted song:</h4>
-                    {band.highest_charted_song && (
-                      <p key={band.highest_charted_song.title}>
-                        {band.highest_charted_song.title} (
-                        {band.highest_charted_song.year})
-                      </p>
-                    )}
+                    <Col xs={12}>
+                      {band.members && (
+                        <ul>
+                          <h4>Members:</h4>
+                          {band.members.map((member) => (
+                            <li key={member.name}>
+                              {member.name} ({member.instruments.join(", ")})
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </Col>
+
+                    <Col xs={12}>
+                      {band.albums && band.albums.length > 0 ? (
+                        <ul>
+                          <h4>Albums:</h4>
+                          {band.albums.map((album) => (
+                            <li key={album.title}>
+                              {album.title} ({album.year})
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p>No albums found.</p>
+                      )}
+                    </Col>
+
+                    <Col xs={12}>
+                      <h4>Highest charted song:</h4>
+                      {band.highest_charted_song && (
+                        <p key={band.highest_charted_song.title}>
+                          {band.highest_charted_song.title} (
+                          {band.highest_charted_song.year})
+                        </p>
+                      )}
+                    </Col>
                   </Row>
                 </Container>
               </div>
