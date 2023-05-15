@@ -27,7 +27,6 @@ This project has the following dependencies:## React Libraries
 - react-router-dom: A library to handle routing in React applications.
 - react-scripts: A library of scripts and configurations used by Create React App.
 - react-spring: A library to create fluid and dynamic animations in React.
-- react-use-gesture: A library to handle gesture recognition and touch interactions in React.
 - react-wavify: A library of animated wave shapes for React.
 
 ## Other Libraries
