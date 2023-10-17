@@ -9,14 +9,14 @@ import styles from "../scss/MainContent.module.scss";
 import "../scss/FireBadge.module.scss";
 
 let btnList = [
-  {
-    img: "https://townsquare.media/site/366/files/2020/12/90salbums.jpg",
-    title: "Band Stats",
-    desc: "An API I created from scratch, hosted on Firebase, to deliver you all the gritty details about your favorite bands...",
-    id: "BandStats",
-    firebadge: true,
-    image: true,
-  },
+  // {
+  //   img: "https://townsquare.media/site/366/files/2020/12/90salbums.jpg",
+  //   title: "Band Stats",
+  //   desc: "An API I created from scratch, hosted on Firebase, to deliver you all the gritty details about your favorite bands...",
+  //   id: "BandStats",
+  //   firebadge: true,
+  //   image: true,
+  // },
   {
     img: "https://bracketfights.com/images/hero/2019/marvel-vs-dc-superheroes-16387/1616215860.jpg",
     title: "Super Search",
@@ -25,14 +25,14 @@ let btnList = [
     firebadge: false,
     image: true,
   },
-  {
-    img: "",
-    title: "Animations...",
-    desc: "Moving things...",
-    id: "Animations",
-    oceanwaves: true,
-    image: false,
-  },
+  // {
+  //   img: "",
+  //   title: "Animations...",
+  //   desc: "Moving things...",
+  //   id: "Animations",
+  //   oceanwaves: true,
+  //   image: false,
+  // },
   {
     img: "https://www.bl.uk/britishlibrary/~/media/bl/global/dl%20shakespeare/authors/shakespeare-people-page.jpg",
     title: "Shakespearian Insult Generator",
@@ -47,20 +47,20 @@ let btnList = [
     id: "SolarSystemSearch",
     image: true,
   },
-  {
-    img: "https://assets.materialup.com/uploads/282f699f-8fb8-40c8-9b04-1e2cf358f03b/preview.png",
-    title: "Media Cards",
-    desc: "Various profile style cards popular on the web and in apps.",
-    id: "MediaCards",
-    image: true,
-  },
-  {
-    img: "https://brid.tv/wp-content/uploads/2021/04/image_2021_04_28T07_10_37_113Z.png",
-    title: "Animated Banner Ads",
-    desc: "Examples of popular animations and banner sizes found on the web...",
-    id: "Banners",
-    image: true,
-  },
+  // {
+  //   img: "https://assets.materialup.com/uploads/282f699f-8fb8-40c8-9b04-1e2cf358f03b/preview.png",
+  //   title: "Media Cards",
+  //   desc: "Various profile style cards popular on the web and in apps.",
+  //   id: "MediaCards",
+  //   image: true,
+  // },
+  // {
+  //   img: "https://brid.tv/wp-content/uploads/2021/04/image_2021_04_28T07_10_37_113Z.png",
+  //   title: "Animated Banner Ads",
+  //   desc: "Examples of popular animations and banner sizes found on the web...",
+  //   id: "Banners",
+  //   image: true,
+  // },
 ];
 
 export const MainContent = () => {
