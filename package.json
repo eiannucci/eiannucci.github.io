@@ -59,8 +59,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=333 && concurrently \"npm run sass\" \"react-scripts start\"",
-    "build": "react-scripts build && xcopy /s /e /h /y build docs",
+    "start": "set PORT=3000 && concurrently \"npm run sass\" \"react-scripts start\"",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sass": "node-sass --watch src/scss -o public/css"
