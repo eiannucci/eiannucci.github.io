@@ -2,8 +2,7 @@ import React from 'react';
 
 export const FileDownload = () => {
   const handleDownload = () => {
-    // Replace the file URL with the actual URL of your resume file
-    const resumeUrl = 'https://resume-elijah-iannucci.tiiny.site/';
+    const resumeUrl = 'https://brainhaxmedia.com/resume/elijah-iannucci.pdf';
 
     // Open the resume URL in a new browser tab
     window.open(resumeUrl, '_blank');

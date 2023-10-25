@@ -8,7 +8,7 @@ export const AnimatedFireBadge = () => {
                 <Row>
                     <Col>
                         <div className={styles.fire}>
-                            <p>New Hotness</p>
+                            <p>Hot Favorite</p>
                             <div className={styles["fire-left"]}>
                                 <div className={styles["main-fire"]}></div>
                                 <div className={styles["particle-fire"]}></div>
