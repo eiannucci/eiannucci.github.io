@@ -7,32 +7,35 @@ import classNames from "classnames";
 import ReactGA from 'react-ga';
 import styles from "../scss/MainContent.module.scss";
 import "../scss/FireBadge.module.scss";
+import BannerImage from '../images/med-banner-thumb.png';
+import MultiCube from '../images/multicube.png';
+import CubeWave from '../images/cubewave.png';
 
 let btnList = [
-  // {
-  //   img: "https://townsquare.media/site/366/files/2020/12/90salbums.jpg",
-  //   title: "Band Stats",
-  //   desc: "An API I created from scratch, hosted on Firebase, to deliver you all the gritty details about your favorite bands...",
-  //   id: "BandStats",
-  //   firebadge: true,
-  //   image: true,
-  // },
   {
     img: "https://bracketfights.com/images/hero/2019/marvel-vs-dc-superheroes-16387/1616215860.jpg",
     title: "Super Search",
     desc: "Find info & stats on almost any superhero known to man... or Superman...",
     id: "SuperHeroSearch",
-    firebadge: false,
+    firebadge: true,
     image: true,
   },
-  // {
-  //   img: "",
-  //   title: "Animations...",
-  //   desc: "Moving things...",
-  //   id: "Animations",
-  //   oceanwaves: true,
-  //   image: false,
-  // },
+  {
+    img: "",
+    title: "SVG animation",
+    desc: "An animated SVG. Incredibly light, plays nicely with tools like GSAP and react-wavify.",
+    id: "Animations",
+    oceanwaves: true,
+    image: false,
+  },
+  {
+    img: MultiCube,
+    title: "The Multicube..",
+    desc: "Hover or drag over the small cubes. Could be implemented a number of ways, even as a navigation...",
+    id: "Multicube",
+    // oceanwaves: true,
+    image: true,
+  },
   {
     img: "https://www.bl.uk/britishlibrary/~/media/bl/global/dl%20shakespeare/authors/shakespeare-people-page.jpg",
     title: "Shakespearian Insult Generator",
@@ -47,20 +50,28 @@ let btnList = [
     id: "SolarSystemSearch",
     image: true,
   },
-  // {
-  //   img: "https://assets.materialup.com/uploads/282f699f-8fb8-40c8-9b04-1e2cf358f03b/preview.png",
-  //   title: "Media Cards",
-  //   desc: "Various profile style cards popular on the web and in apps.",
-  //   id: "MediaCards",
-  //   image: true,
-  // },
-  // {
-  //   img: "https://brid.tv/wp-content/uploads/2021/04/image_2021_04_28T07_10_37_113Z.png",
-  //   title: "Animated Banner Ads",
-  //   desc: "Examples of popular animations and banner sizes found on the web...",
-  //   id: "Banners",
-  //   image: true,
-  // },
+  {
+    img: CubeWave,
+    title: "Going wild with Greensock",
+    desc: "Testing out Greensock's versatility...",
+    id: "CubeWave",
+    image: true,
+  },
+  {
+    img: BannerImage,
+    title: "Animated Banner Ads",
+    desc: "Examples of popular banner sizes found on the web...",
+    id: "Banners",
+    image: true,
+  },
+  {
+    img: "https://townsquare.media/site/366/files/2020/12/90salbums.jpg",
+    title: "Band Stats",
+    desc: "An API I created from scratch, hosted on Firebase, to deliver you all the gritty details about your favorite bands...",
+    id: "BandStats",
+    firebadge: false,
+    image: true,
+  },
 ];
 
 export const MainContent = () => {
@@ -78,12 +89,16 @@ export const MainContent = () => {
         return navigate("/pg-solar-search");
       case "MediaCards":
         return navigate("/pg-media-cards");
-      case "Animations":
-        return navigate("/pg-animations");
+      case "Multicube":
+        return navigate("/pg-multicube");
+        case "Animations":
+          return navigate("/pg-animations");
       case "Banners":
         return navigate("/pg-html-banners");
       case "BandStats":
         return navigate("/pg-customapi-bandstats");
+        case "CubeWave":
+          return navigate("/pg-cubewave");
       default:
         return console.log("/pg-home");
     }
