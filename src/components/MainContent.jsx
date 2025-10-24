@@ -37,13 +37,6 @@ let btnList = [
     image: true,
   },
   {
-    img: "https://humor.undergroundshirts.com/cdn/shop/products/DostThouEvenHoist-htrMilitary_2_1024x1024@2x.jpg?v=1575391519",
-    title: "Shakespearian Insult Generator",
-    desc: "Insult Thyself...",
-    id: "InsultGenerator",
-    image: true,
-  },
-  {
     img: "https://cdn.mos.cms.futurecdn.net/DQyNHder4hmYdLZ4Wf5oS3.jpg",
     title: "Solar System Search",
     desc: "A full listing of the solar system's celestial bodies to search through.",
