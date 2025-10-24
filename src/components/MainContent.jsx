@@ -37,7 +37,7 @@ let btnList = [
     image: true,
   },
   {
-    img: "https://www.bl.uk/britishlibrary/~/media/bl/global/dl%20shakespeare/authors/shakespeare-people-page.jpg",
+    img: "https://humor.undergroundshirts.com/cdn/shop/products/DostThouEvenHoist-htrMilitary_2_1024x1024@2x.jpg?v=1575391519",
     title: "Shakespearian Insult Generator",
     desc: "Insult Thyself...",
     id: "InsultGenerator",
