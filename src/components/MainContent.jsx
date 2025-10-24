@@ -37,7 +37,7 @@ let btnList = [
     image: true,
   },
   {
-    img: CubeWave,
+    img: "https://bracketfights.com/images/hero/2019/marvel-vs-dc-superheroes-16387/1616215860.jpg",
     title: "Shakespearian Insult Generator",
     desc: "Insult Thyself...",
     id: "InsultGenerator",
