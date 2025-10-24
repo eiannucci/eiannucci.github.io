@@ -37,7 +37,7 @@ let btnList = [
     image: true,
   },
   {
-    img: "https://humor.undergroundshirts.com/cdn/shop/products/DostThouEvenHoist-htrMilitary_2_1024x1024@2x.jpg?v=1575391519",
+    img: CubeWave,
     title: "Shakespearian Insult Generator",
     desc: "Insult Thyself...",
     id: "InsultGenerator",
