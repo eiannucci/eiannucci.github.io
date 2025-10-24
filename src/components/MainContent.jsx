@@ -37,13 +37,6 @@ let btnList = [
     image: true,
   },
   {
-    img: "https://bracketfights.com/images/hero/2019/marvel-vs-dc-superheroes-16387/1616215860.jpg",
-    title: "Shakespearian Insult Generator",
-    desc: "Insult Thyself...",
-    id: "InsultGenerator",
-    image: true,
-  },
-  {
     img: "https://cdn.mos.cms.futurecdn.net/DQyNHder4hmYdLZ4Wf5oS3.jpg",
     title: "Solar System Search",
     desc: "A full listing of the solar system's celestial bodies to search through.",
