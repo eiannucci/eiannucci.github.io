@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.10.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://eiannucci.github.io/",
   "dependencies": {
     "@chakra-ui/button": "^2.0.18",
     "@emotion/react": "^11.10.6",
